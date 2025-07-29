@@ -1,0 +1,10 @@
+{
+  "total_prompt_tokens": 47017,
+  "total_response_tokens": 745,
+  "per_run": {
+    "classification": {
+      "prompt": 47017,
+      "response": 745
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "levels": [
+    "level_0",
+    "level_1"
+  ],
+  "examples": {
+    "level_0": [
+      "^INTRODUCTION\\ AND\\ ANALYSIS\\.$"
+    ],
+    "level_1": [
+      "^THE\\ REPUBLIC\\.$",
+      "^PERSONS\\ OF\\ THE\\ DIALOGUE\\.$",
+      "^BOOK\\ I\\.$",
+      "^BOOK\\ II\\.$",
+      "^BOOK\\ III\\.$",
+      "^BOOK\\ IV\\.$",
+      "^BOOK\\ V\\.$",
+      "^BOOK\\ VI\\.$",
+      "^BOOK\\ VII\\.$",
+      "^BOOK\\ VIII\\.$",
+      "^BOOK\\ IX\\.$",
+      "^BOOK\\ X\\.$"
+    ]
+  }
+}
