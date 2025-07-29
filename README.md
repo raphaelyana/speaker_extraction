@@ -2,8 +2,27 @@
 
 This project performs **speaker attribution** in literary texts using a pipeline that combines structure detection, paragraph splitting, and classification via a large language model (Gemini). It is designed to process raw book text and extract who is speaking and narrating or only speaking, with a focus on works like The Republic, Symposium, and Hamlet.
 
-### Project Structure
-<pre> . ├── pipeline.py # Main pipeline script (modular & reusable) ├── execution_file.ipynb # Interactive notebook to run & explore the pipeline ├── utils/ # Structure profiles and Table Of Contents extraction logic ├── data/ # Input texts and generated outputs per book │ └── [book_name]/ │ ├── cleaned.txt │ ├── paragraphs.jsonl │ └── detected_toc.txt # if applicable ├── runs/ # LLM classification outputs and usage reports │ └── [book_name]/ │ ├── speaker_segments.jsonl │ └── usage_report.json ├── .env # Your API key (not tracked by Git) ├── requirements.txt └── README.md </pre>
+
+## Table of Contents
+- [Directory Overview](#directory-overview)
+- [How It Works](#how-it-works)
+- [Execution](#execution)
+- [Requirements](#requirements)
+- [Environment](#environment)
+- [Output Example](#output-example)
+- [Notes](#notes)
+- [Supported Works (Examples)](#supported-works-examples)
+- [License](#license)
+
+
+---
+
+
+### Directory Overview
+
+Below is a diagram of the project's structure, excluding `README.md`, `LICENSE` and `requirements.txt`.
+
+![Diagram of the Project's structure](images/folder_description.png)
 
 
 ---
@@ -83,6 +102,8 @@ For a given book like *Republic*, the output includes:
 - *Symposium*, by Plato
 - *Hamlet*, by Shakespeare
 You can easily extend the pipeline to any book in plain text.
+
+---
 
 ### License
 This project is licensed under the [Apache License 2.0](./LICENSE).  
