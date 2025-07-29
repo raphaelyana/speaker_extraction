@@ -3,20 +3,7 @@
 This project performs **speaker attribution** in literary texts using a pipeline that combines structure detection, paragraph splitting, and classification via a large language model (Gemini). It is designed to process raw book text and extract who is speaking and narrating or only speaking, with a focus on works like The Republic, Symposium, and Hamlet.
 
 ### Project Structure
-.
-├── pipeline.py                 # Main pipeline script (modular & reusable)
-├── execution_file.ipynb        # Interactive notebook to run & explore the pipeline
-├── utils/                      # Structure profiles and Table Of Contents extraction logic
-├── data/                       # Input texts and generated outputs per book
-│   └── [book_name]/           
-│       ├── cleaned.txt
-│       ├── paragraphs.jsonl
-│       └── detected_toc.txt (if applicable)
-├── runs/                      # LLM classification outputs and usage reports
-│   └── [book_name]/
-│       ├── speaker_segments.jsonl
-│       └── usage_report.json
-└── README.md
+<pre> . ├── pipeline.py # Main pipeline script (modular & reusable) ├── execution_file.ipynb # Interactive notebook to run & explore the pipeline ├── utils/ # Structure profiles and Table Of Contents extraction logic ├── data/ # Input texts and generated outputs per book │ └── [book_name]/ │ ├── cleaned.txt │ ├── paragraphs.jsonl │ └── detected_toc.txt # if applicable ├── runs/ # LLM classification outputs and usage reports │ └── [book_name]/ │ ├── speaker_segments.jsonl │ └── usage_report.json ├── .env # Your API key (not tracked by Git) ├── requirements.txt └── README.md </pre>
 
 
 ---
